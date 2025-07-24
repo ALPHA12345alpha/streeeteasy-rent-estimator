@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load trained model
-model = joblib.load("ml_model/rent_model.pkl")
+model = joblib.load("rent_model.pkl")
 
 st.set_page_config(page_title="NYC Rent Estimator", layout="centered")
 st.title("🏙️ NYC Rent Estimator")
